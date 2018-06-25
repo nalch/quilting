@@ -2,6 +2,6 @@ language: python
 python:
     - "3.5"
 before_install:
-    - cd quilting_backend && make setup
+    - make setup
 script:
-    - cd quilting_backend && make test
+    - make test
