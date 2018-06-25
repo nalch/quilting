@@ -1,4 +1,5 @@
 setup: clean
+  npm install -g aurelia-client
 	npm install
 
 run:
