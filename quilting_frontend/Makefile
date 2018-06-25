@@ -1,5 +1,5 @@
 setup: clean
-  npm install -g aurelia-client
+	npm install -g aurelia-client
 	npm install
 
 run:
@@ -11,6 +11,3 @@ test:
 clean:
 	rm -rf node_modules
 	rm -rf dist
-
-docs: dev_reqs
-	$(IN_ENV) cd docs && make html
