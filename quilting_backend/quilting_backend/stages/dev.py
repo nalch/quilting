@@ -1,0 +1,4 @@
+STAGE_SETTINGS = {
+    'DEBUG': True,
+    'CORS_ORIGIN_ALLOW_ALL': True
+}
