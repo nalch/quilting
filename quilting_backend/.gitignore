@@ -1,0 +1,4 @@
+.env_python3.5
+.idea
+.coverage
+db.sqlite3
