@@ -1,5 +1,5 @@
 setup: clean
-	npm install -g aurelia-client
+	npm install -g aurelia-cli
 	npm install
 
 run:
