@@ -1,0 +1,4 @@
+[pycodestyle]
+exclude=quilting_app/migrations
+show-source=True
+statistics=True

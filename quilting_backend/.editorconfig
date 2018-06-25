@@ -1,0 +1,19 @@
+root = true
+
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+[**.py]
+indent_style = space
+indent_size = 4
+
+# isort settings
+multi_line_output=3
+not_skip=__init__.py
+skip_glob=quilting_app/migrations/**
+default_section=THIRDPARTY
+known_first_party=quilting_backend,quilting_app
+known_django=django
+sections=FUTURE,STDLIB,DJANGO,THIRDPARTY,FIRSTPARTY,LOCALFOLDER
+use_parentheses=True

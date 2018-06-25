@@ -1,0 +1,14 @@
+<template>
+  <!-- Post -->
+  <article class="box post">
+      <header>
+        <h2>${tutorial.title}</h2>
+      </header>
+      <span class="image featured"><img src.bind="tutorial.thumbnail" alt="" /></span>
+      <div repeat.for="step of tutorial.steps">
+        <h3>${step.title}</h3>
+        ${step.description}
+      </div>
+    </article>
+
+</template>

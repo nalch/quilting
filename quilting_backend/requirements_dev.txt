@@ -1,0 +1,6 @@
+django-cors-headers
+coverage
+pycodestyle
+isort
+sphinx
+sphinx-rtd-theme
