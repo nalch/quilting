@@ -1,22 +1,3 @@
-# Quilting app
-https://travis-ci.org/nalch/quilting.svg?branch=master
-
-## Quilting backend
-Make file commands::
-    setup
-    shell
-    test
-    run
-    clean
-    docs
-
-## Quilting frontend
-Make file commands::
-    setup
-    run
-	test
-	clean
-
 ![Build status](https://travis-ci.org/nalch/quilting.svg?branch=master)
 # Quilting
 
